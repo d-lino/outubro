@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "noto sans", sans-serif;
+}
+
+header {
+    border: none;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    color:ghostwhite;
+    justify-content: space-between;
+    background-color: #ff69b4;
+    font-weight:normal;
+    height: 15vh;
+
+    section {
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            font-weight: normal;
+        }
+    }
+
+    nav {
+        width: 40%;
+        font-size: large;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+main {
+
+   .sessaoSobre {
+    display: flex;
+    height: 60vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffd9ec ;
+
+   p {
+    font-weight:340;
+    width: 60%;
+    font-size: 25px;
+   }
+
+  img {
+    width: 23vw;
+  }
+
+  }
+
+  .sessaoConscientizaçao {
+    display:flex;
+    height: 40vh;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color:#ff69b4 ;
+
+    p {
+        font-weight:340;
+        width: 60%;
+        font-size: 25px;
+        color: ghostwhite;
+       }
+
+       img {
+        width: 30vw;
+      }   
+  }
+
+   .sessaoDicas {
+    display:flex;
+    height: 60vh;
+    background-color:#ffd9ec;
+    justify-content: space-evenly;
+    align-items: center;
+
+       img {
+        width: 19vw;
+        height: 40vh;
+       }   
+
+   }
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ff69b4;
+    height: 25vh;
+    color:ghostwhite;
+
+    nav {
+        width: 17%;
+        height: 40%;
+        
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            img {
+                height: 8.7vh;
+                width: 5vw;
+
+            }
+        }
+
+    }
+    section {
+        width: 40vw;
+       
+        p {
+          font-weight: 400;
+          font-size: large;
+          text-align: center;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    header {
+        height: 20vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    
+    nav {
+        width: 80vw;
+        height: 5vh;
+    
+    }
+    ul {
+        width: 80vw;
+
+        a{
+        justify-content: space-between;
+        font-size: 22px;
+        }
+    }
+}
+
+main {
+    .sessaoSobre {
+        height: 100vh;
+        width: 100vw;
+        flex-direction: column-reverse;
+        align-items: center;
+
+        p {
+            width: 80%;
+            font-size: 30px;
+            text-align: center;
+            text-align: justify;
+        }
+        img {
+            width: 70%;
+        }
+    }
+    .sessaoConscientizaçao {
+        height: 100vh;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            width: 80%;
+            font-size: 30px;
+            text-align: center;
+            text-align: justify;
+        }
+        img {
+            width: 87%;
+        }
+    }
+    .sessaoDicas {
+        justify-content:center;
+        height: 30vh;
+
+        img {
+            width: 26vw;
+            height: 23vh;
+        }
+    }
+}
+footer {
+  nav {
+    ul {
+        img {
+            width: 7vw;
+            height: 5vh;
+        }
+    }
+}
+}
+}
