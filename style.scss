@@ -209,3 +209,78 @@ footer {
 }
 }
 }
+
+
+@media (max-width:428px) {
+
+    main {
+        .sessaoSobre {
+            height: 90vh;
+            width: 100vw;
+            flex-direction: column-reverse;
+            align-items: center;
+    
+            p {
+                width: 90%;
+                font-size: 20px;
+                text-align: center;
+                text-align: justify;
+            }
+            
+        }
+
+        .sessaoConscientizaçao {
+            height: 80vh;
+            width: 100vw;
+            flex-direction: column;
+            align-items: center;
+    
+            p {
+                width: 85%;
+                font-size: 20px;
+                text-align: center;
+                text-align: justify;
+            }
+        
+        }
+
+        .sessaoDicas {
+            justify-content:space-evenly;
+            height: 50vh;
+            flex-wrap: wrap;
+    
+            img {
+                width: 35vw;
+                height: 20vh;
+            }
+        }
+    }
+
+    footer {
+        
+        nav {
+            width: 15%;
+            height: 60%;
+          ul {
+            flex-direction: column;
+              img {
+                  width: 7vw;
+                  height: 4.5vh;
+              }
+          }
+      }
+      section {
+        width: 40vw;
+       
+        p {
+          font-weight: 500;
+          font-size:small;
+          text-align: center;
+        }
+    }
+    img {
+        width: 15vw;
+        height: 9vh;
+    }
+}
+}
